@@ -6,7 +6,7 @@
 
 class parallels::v8 {
   package { 'Parallels-v8':
-    source   => 'http://download.parallels.com/desktop/v8/update2/ParallelsDesktop-8.0.18608.898384.dmg',
+    source   => 'http://www.parallels.com/ca/directdownload/pd8',
     provider => 'appdmg'
   }
 }

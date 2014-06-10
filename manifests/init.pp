@@ -6,7 +6,7 @@
 
 class parallels {
   package { 'Parallels':
-    source   => 'http://download.parallels.com/restricted/download/desktop/v9/pde/ParallelsDesktop-9.0.23350.941886.dmg',
+    source   => 'http://www.parallels.com/directdownload/pd9/',
     provider => 'appdmg'
   }
 }
