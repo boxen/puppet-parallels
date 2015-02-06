@@ -4,9 +4,9 @@
 #
 #   include parallels
 
-class parallels {
+class parallels ($version = '9') {
   package { 'Parallels':
-    source   => 'http://www.parallels.com/directdownload/pd9/',
+    source   => "http://www.parallels.com/directdownload/pd${version}/",
     provider => 'appdmg'
   }
 }
