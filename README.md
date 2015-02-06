@@ -9,6 +9,13 @@ Installs [Parallels](parallels.com) for Mac OS X.
 ```puppet
 include parallels
 ```
+
+```puppet
+class { 'parallels':
+  version => '10'
+}
+```
+
 If you want to install the previous version then use:
 ```puppet
 include parallels::v8
